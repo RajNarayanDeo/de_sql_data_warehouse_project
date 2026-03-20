@@ -8,15 +8,17 @@ This project demonstrates an end-to-end data warehousing and analytics solution,
 
 **This project focuses on:**
 
-Building a modern data warehouse using SQL Server
-Integrating multiple data sources (ERP & CRM)
-Performing data cleansing and transformation
-Creating a business-ready data model
-Delivering insights through SQL-based analytics
+1. Building a modern data warehouse using SQL Server
+2. Integrating multiple data sources (ERP & CRM)
+3. Performing data cleansing and transformation
+4. Creating a business-ready data model
+5. Delivering insights through SQL-based analytics
 
 ⚙️ Project Requirements
+
 🏗️ Building the Data Warehouse (Data Engineering)
-🎯 Objective
+
+🎯 **Objective**
 
 Develop a scalable data warehouse to consolidate sales data and enable analytical reporting for informed decision-making.
 
@@ -24,30 +26,31 @@ Develop a scalable data warehouse to consolidate sales data and enable analytica
 
 📥 **Data Sources**
 Import data from two systems:
-ERP (Enterprise Resource Planning)
-CRM (Customer Relationship Management)
-(Provided as CSV files)
+1. ERP (Enterprise Resource Planning)
+2. CRM (Customer Relationship Management)
+
+Note: (Provided as CSV files)
 
 🧹 **Data Quality**
 
-Cleanse and preprocess raw data
-Handle missing, duplicate, and inconsistent data
+1. Cleanse and preprocess raw data
+2. Handle missing, duplicate, and inconsistent data
 
 🔗 **Data Integration**
 
-Combine ERP and CRM datasets
-Build a unified, analysis-friendly data model
+1. Combine ERP and CRM datasets
+2. Build a unified, analysis-friendly data model
 
 📊 **Scope**
 
-Focus on latest available data only
-No historical tracking required
+1. Focus on latest available data only
+2. No historical tracking required
 
 📚 **Documentation**
 
-Provide clear documentation of:
-Data model
-Transformations
+1. Provide clear documentation of:
+2. Data model
+3. Transformations
 
 **Business logic**
 
@@ -60,48 +63,48 @@ Transformations
 
 👥 Customer Behavior
 
-Customer segmentation
-Purchase patterns
+1. Customer segmentation
+2. Purchase patterns
 
 📦 Product Performance
 
-Top-performing products
-Product category insights
+1. Top-performing products
+2. Product category insights
 
 📉 Sales Trends
 
-Revenue trends over time
-Seasonal patterns
+1. Revenue trends over time
+2. Seasonal patterns
 
 🏗️ **Architecture (Recommended)**
 
 This project follows a Medallion Architecture:
 
-🥉 Bronze Layer → Raw data ingestion
-🥈 Silver Layer → Cleaned & standardized data
-🥇 Gold Layer → Business-ready datasets
+  🥉 Bronze Layer → Raw data ingestion
+  🥈 Silver Layer → Cleaned & standardized data
+  🥇 Gold Layer → Business-ready datasets
 
 🛠️ **Tech Stack**
 
-SQL Server – Data warehouse
-SQL – Data transformation & analysis
-CSV Files – Source data
+  SQL Server – Data warehouse
+  SQL – Data transformation & analysis
+  CSV Files – Source data
 
 **(Optional) Power BI / Tableau – Visualization**
 
 📊 Example Outputs
 
-Customer segmentation tables
-Sales summary dashboards
-Product performance reports
+1. Customer segmentation tables
+2. Sales summary dashboards
+3. Product performance reports
 
-📜 License
+📜 **License**
 
-This project is licensed under the MIT License.
-You are free to use, modify, and share this project with proper attribution.
+  This project is licensed under the MIT License.
+  You are free to use, modify, and share this project with proper attribution.
 
 👨‍💻 **About Me**
 
-Hi! I'm **Raj Narayan Deo**, a data enthusiast passionate about Data Engineering, Analytics, and AI.
+  Hi! I'm **Raj Narayan Deo**, a data enthusiast passionate about Data Engineering, Analytics, and AI.
 
-This project is part of my journey to build real-world, production-ready data systems and share knowledge with the community.
+  This project is part of my journey to build real-world, production-ready data systems and share knowledge with the community.
